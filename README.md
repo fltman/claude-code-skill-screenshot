@@ -1,5 +1,7 @@
 # claude-code-skill-screenshot
 
+[![Support me on Patreon](https://img.shields.io/badge/Patreon-Support%20my%20work-FF424D?style=flat&logo=patreon&logoColor=white)](https://www.patreon.com/AndersBjarby)
+
 A [Claude Code](https://docs.claude.com/en/docs/claude-code) skill that lets Claude take macOS screenshots itself — full screen, a specific display, an exact region, an interactively-selected rectangle, or a specific window — using the built-in `screencapture` command.
 
 The skill saves PNGs to `/tmp/claude-screenshots/` and hands the path back to Claude, which then reads the image and can describe what it sees. Useful when you're debugging a UI bug, want Claude to look at an error dialog, or just want to share what's on your screen without manually taking the shot and dragging it in.
